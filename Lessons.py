@@ -445,12 +445,24 @@
 # 7.490910297239916
 # 10.009131205673757
 
-############ BMI CALCULATOR 4.1.5.1 ###################
-def bmi(weight, height):
-    if weight > 1 and height > 1:
-        return weight / height ** 2
-    else:
-        return None
+########### BMI CALCULATOR 4.1.5.1 ###################
+# def bmi(weight, height):
+#     if weight > 1 and height > 1:
+#         return weight / height ** 2
+#     else:
+#         return None
 
 
-print(bmi(52.5, 1.65))
+# print(bmi(52.5, 1.65))
+
+
+############## Day 5 Lesson with Angela Yu. #########
+
+# 🚨 Don't change the code below 👇
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
+# 🚨 Don't change the code above 👆
+
+
+# Write your code below this row 👇
