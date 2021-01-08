@@ -455,13 +455,26 @@
 
 # print(bmi(52.5, 1.65))
 
+# DAY 1 Band Name #################3
+
+# 1. Create a greeting for your program.
+# print ("Welcome to the Band Name generator")
+# #2. Ask the user for the city that they grew up in.
+# whatCity = input("Name of city you grew up?: \n")
+# #3. Ask the user for the name of a pet.
+# whatPet = input("Name of your Pet?: \n")
+# #4. Combine the name of their city and pet and show them their band name.
+# bandName = whatCity + whatPet
+# print ("Your Band name is: \n" + bandName)
+# 5. Make sure the input cursor shows on a new line, see the example at:
+#   https://band-name-generator-end.appbrewery.repl.run/
 
 ############## Day 5 Lesson with Angela Yu. #########
 
 # 🚨 Don't change the code below 👇
-student_heights = input("Input a list of student heights ").split()
-for n in range(0, len(student_heights)):
-    student_heights[n] = int(student_heights[n])
+# student_heights = input("Input a list of student heights ").split()
+# for n in range(0, len(student_heights)):
+#     student_heights[n] = int(student_heights[n])
 # 🚨 Don't change the code above 👆
 
 
