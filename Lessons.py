@@ -488,21 +488,71 @@
 # HINT 1: https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal
 # HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 
-print("Welcome to the tip calculator.")
-bill = float(input("What was the total of the bill? "))
-tipPercent = float(
-    input("What percentage tip would you like to give? 10, 12, or 15? "))
-billSplit = float(input("How many people to split the bill? "))
-total = 0
+# print("Welcome to the tip calculator.")
+# bill = float(input("What was the total of the bill? "))
+# tipPercent = float(
+#     input("What percentage tip would you like to give? 10, 12, or 15? "))
+# billSplit = float(input("How many people to split the bill? "))
+# total = 0
 
-if tipPercent == 10:
-    total = (bill / billSplit) * 1.10
-elif tipPercent == 12:
-    total = (bill / billSplit) * 1.12
-elif tipPercent == 15:
-    total = (bill / billSplit) * 1.15
+# if tipPercent == 10:
+#     total = (bill / billSplit) * 1.10
+# elif tipPercent == 12:
+#     total = (bill / billSplit) * 1.12
+# elif tipPercent == 15:
+#     total = (bill / billSplit) * 1.15
 
-roundTotal = round(total, 2)
-roundTotal = "{:.2f}".format(total)
+# roundTotal = round(total, 2)
+# roundTotal = "{:.2f}".format(total)
 
-print(f"Each person should pay: {roundTotal}")
+# print(f"Each person should pay: {roundTotal}")
+
+
+# c0 = int(input("Enter a number: "))
+
+# while c0 < 1:
+#     print("Only numbers 1 and above: ")
+#     c0 = int(input("Enter a number: "))
+
+
+# steps = 0
+
+# while c0 != 1:
+#     if c0 % 2 == 0:
+#         c0 = c0 // 2
+#     else:
+#         c0 = 3 * c0 + 1
+#     print(c0)
+#     steps += 1
+# print("Total steps is : ", steps)
+
+
+# word = "Python"
+# for letter in word:
+#     print(letter, end="*")
+
+# for i in range(1, 10):
+#     if i % 2 == 0:
+#         print(i)
+
+# for i in range(1, 11):
+#     if i % 2 != 0:  # line of code
+#         print(i)  # line of code
+
+# x = 1
+# while x < 11:
+#     if x % 2 != 0:  # line of code
+#         print(x)  # line of code
+#     x += 1  # line of code
+
+
+# for ch in "john.smith@pythoninstitute.org":
+#     if ch == "@":
+#         break  # line of code
+#     print(ch, end="")  # line of code
+
+for digit in "0165031806510":
+    if digit == "0":
+        print("x", end="")  # line of code
+        continue  # line of code
+    print(digit, end="")  # line of code
